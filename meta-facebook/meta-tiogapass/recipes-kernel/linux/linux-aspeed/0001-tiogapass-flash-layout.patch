@@ -1,6 +1,6 @@
 --- a/arch/arm/boot/dts/aspeed/aspeed-bmc-facebook-tiogapass.dts
 +++ b/arch/arm/boot/dts/aspeed/aspeed-bmc-facebook-tiogapass.dts
-@@ -57,7 +57,36 @@
+@@ -57,6 +57,35 @@
  	flash@0 {
  		status = "okay";
  		m25p,fast-read;
@@ -37,3 +37,4 @@
 +		};
  	};
  };
+
